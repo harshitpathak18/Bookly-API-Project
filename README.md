@@ -17,14 +17,14 @@ FastAPI_Project/
 │   │   ├── user.py
 │   │   ├── review.py
 │   │   ├── tag.py
-│   │   ├── __init__.py
+│   │   └── __init__.py
 │   │
 │   ├── schemas/
 │   │   ├── book.py
 │   │   ├── user.py
 │   │   ├── review.py
 │   │   ├── tag.py
-│   │   └── auth.py
+│   │   ├── auth.py
 │   │   └── __init__.py
 │   │
 │   ├── services/
@@ -32,24 +32,24 @@ FastAPI_Project/
 │   │   ├── user_service.py
 │   │   ├── review_service.py
 │   │   ├── tag_service.py
-│   │   └── auth_service.py
+│   │   ├── auth_service.py
 │   │   └── __init__.py
 │   │
 │   ├── db/
-│   │   ├── session.py          # DB connection
-│   │   ├── init_db.py          # DB creation logic
+│   │   ├── session.py
+│   │   ├── init_db.py
 │   │   └── __init__.py
 │   │
 │   ├── core/
-│   │   ├── config.py           # Pydantic settings
-│   │   ├── security.py         # Password hashing, JWT handling
+│   │   ├── config.py
+│   │   ├── security.py
 │   │   └── __init__.py
 │   │
-│   ├── main.py                 # FastAPI app instance
+│   ├── main.py
 │   └── __init__.py
 │
 ├── .env
 ├── pyproject.toml
 ├── requirements.txt
 ├── README.md
-└── uvicorn.config.py (optional)
+└── uvicorn.config.py
