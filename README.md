@@ -1,3 +1,4 @@
+<pre>
 FastAPI_Project/
 ├── app/
 │   ├── api/
@@ -53,3 +54,4 @@ FastAPI_Project/
 ├── requirements.txt
 ├── README.md
 └── uvicorn.config.py
+</pre>
